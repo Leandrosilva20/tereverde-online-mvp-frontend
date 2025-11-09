@@ -33,4 +33,4 @@ circuito-tere-verde-html/
 
 ---
 
-Feito para entrega acadêmica — pronto para subir ao GitHub. Boa sorte! 🌱
+
