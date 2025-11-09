@@ -12,13 +12,18 @@ O projeto busca **promover o ecoturismo**, **educação ambiental** e facilitar 
 ---
 
 ## 🧭 Estrutura do Projeto
-circuito-tere-verde-html/
+tereverde-online-mvp-frontend/
+│
 ├─ index.html
+├─ trilhas.html
+├─ biodiversidade.html
+├─ painel.html
+│
 ├─ css/
-│ └─ style.css
-├─ js/
-│ └─ main.js
-└─ README.md
+│  └─ style.css
+│
+└─ js/
+   └─ main.js
 
 ---
 
