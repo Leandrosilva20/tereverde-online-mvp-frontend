@@ -4,22 +4,29 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Início - Circuito Terê Verde</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script defer src="js/main.js"></script>
+
+  <!-- Caminho corrigido do CSS -->
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Script do login -->
+  <script defer src="./js/main.js"></script>
+
+  <!-- Fonte e ícone -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
-  <h1>Circuito Terê Verde</h1>
-  <nav>
-    <a href="index.html">Início</a>
-    <a href="trilhas.html">Trilhas</a>
-    <a href="biodiversidade.html">Biodiversidade & Eventos</a>
-    <button id="openLogin">Login Admin</button>
-  </nav>
-</header>
+    <h1>Circuito Terê Verde</h1>
+    <nav>
+      <a href="index.html" class="ativo">Início</a>
+      <a href="trilhas.html">Trilhas</a>
+      <a href="biodiversidade.html">Biodiversidade & Eventos</a>
+      <button id="openLogin">Login Admin</button>
+    </nav>
+  </header>
 
   <main>
-    <section>
+    <section class="intro">
       <h2>Bem-vindo(a) ao Circuito Terê Verde 🌿</h2>
       <p>Descubra o melhor do ecoturismo em Teresópolis! Explore trilhas, cachoeiras, montanhas e a incrível biodiversidade dos parques que cercam a cidade:</p>
       <ul>
@@ -30,18 +37,20 @@
       <p>Nosso objetivo é conectar visitantes à natureza, de forma sustentável e informada.</p>
     </section>
   </main>
-  <footer>
-  <p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p>
-</footer>
-<div id="loginModal" class="modal">
-  <div class="modal-content">
-    <span id="closeLogin">&times;</span>
-    <h3>Login Administrativo</h3>
-    <input type="email" id="email" placeholder="Email" />
-    <input type="password" id="senha" placeholder="Senha" />
-    <button onclick="fazerLogin()">Entrar</button>
-  </div>
-</div>
 
+  <footer>
+    <p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p>
+  </footer>
+
+  <!-- Modal de login -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span id="closeLogin">&times;</span>
+      <h3>Login Administrativo</h3>
+      <input type="email" id="email" placeholder="Email" />
+      <input type="password" id="senha" placeholder="Senha" />
+      <button id="loginBtn">Entrar</button>
+    </div>
+  </div>
 </body>
 </html>
