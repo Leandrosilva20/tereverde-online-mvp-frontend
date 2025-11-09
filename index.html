@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Circuito Terê Verde — Teresópolis</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">TV</div>
+        <div>
+          <h1>Circuito Terê Verde</h1>
+          <p class="subtitle">Teresópolis — Ecoturismo & Biodiversidade</p>
+        </div>
+      </div>
+      <nav class="main-nav">
+        <a href="#home" class="nav-link">Início</a>
+        <a href="#trilhas" class="nav-link">Trilhas</a>
+        <a href="#biodiversidade" class="nav-link">Biodiversidade</a>
+        <button id="adminBtn" class="btn btn-outline">Login Admin</button>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <h2>Explore as montanhas de Teresópolis</h2>
+          <p>Trilhas, cachoeiras e educação ambiental. Planeje sua visita com informações atualizadas sobre disponibilidade e eventos.</p>
+          <div class="actions">
+            <a href="#trilhas" class="btn">Ver Trilhas</a>
+            <a href="#biodiversidade" class="btn btn-light">Eventos & Biodiversidade</a>
+          </div>
+        </div>
+        <div class="hero-img">
+          <img src="https://images.unsplash.com/photo-1504198453319-5ce911bafcde?fit=crop&w=900&q=60" alt="Montanhas de Teresópolis">
+        </div>
+      </div>
+    </section>
+
+    <section id="trilhas" class="section">
+      <div class="container">
+        <h3>Trilhas</h3>
+        <div class="controls">
+          <input id="searchInput" placeholder="Pesquisar trilhas ou parque" />
+          <select id="difficultyFilter">
+            <option value="all">Todas dificuldades</option>
+            <option value="fácil">Fácil</option>
+            <option value="médio">Médio</option>
+            <option value="difícil">Difícil</option>
+          </select>
+        </div>
+
+        <div id="trailsList" class="cards"></div>
+      </div>
+    </section>
+
+    <section id="biodiversidade" class="section bg-light">
+      <div class="container">
+        <h3>Biodiversidade & Eventos</h3>
+        <div class="columns">
+          <div class="card">
+            <h4>Eventos Próximos</h4>
+            <ul id="eventsList"></ul>
+          </div>
+          <div class="card">
+            <h4>Espécies em destaque</h4>
+            <ul>
+              <li>Monjolo (exemplo de ave local)</li>
+              <li>Samambaia (flora nativa)</li>
+              <li>Jaguarundi (observação em áreas protegidas)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Circuito Terê Verde — Projeto acadêmico</p>
+        <p>Contato: prefeitura@teresopolis.rj.br • Tel: (21) 99999-9999</p>
+      </div>
+    </footer>
+  </main>
+
+  <!-- Admin modal -->
+  <div id="adminModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+      <button id="closeModal" class="modal-close">&times;</button>
+      <h3>Acesso Administrativo</h3>
+      <p class="muted">Credenciais demo: <strong>admin@tere.com</strong> / <strong>senha123</strong></p>
+      <form id="loginForm">
+        <label>Email</label>
+        <input type="email" id="email" required />
+        <label>Senha</label>
+        <input type="password" id="password" required />
+        <div class="form-actions">
+          <button type="submit" class="btn">Entrar</button>
+          <button type="button" id="cancelLogin" class="btn btn-outline">Cancelar</button>
+        </div>
+        <p id="loginMsg" class="muted"></p>
+      </form>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
