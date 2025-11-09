@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Biodiversidade & Eventos - Circuito Terê Verde</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header>
+  <h1>Circuito Terê Verde</h1>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="trilhas.html">Trilhas</a>
+    <a href="biodiversidade.html">Biodiversidade & Eventos</a>
+    <button id="openLogin">Login Admin</button>
+  </nav>
+</header>
+
+  <main>
+    <h2>Biodiversidade & Eventos 🌺</h2>
+    <section>
+      <h3>Riquezas Naturais</h3>
+      <ul>
+        <li>🐦 Espécies endêmicas de aves e fauna diversa</li>
+        <li>🌿 Vegetação de altitude com orquídeas e bromélias raras</li>
+        <li>🐒 Presença de pequenos mamíferos e vida silvestre abundante</li>
+      </ul>
+    </section>
+    <section>
+      <h3>Próximos Eventos</h3>
+      <div class="card"><strong>🌎 Dia da Conservação Ambiental</strong><p>12 de Dezembro — Parque Natural Montanhas de Teresópolis</p></div>
+      <div class="card"><strong>🚶 Caminhada Ecológica</strong><p>5 de Janeiro — Trilha Cartão Postal</p></div>
+    </section>
+  </main>
+  <footer>
+  <p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p>
+</footer>
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span id="closeLogin">&times;</span>
+    <h3>Login Administrativo</h3>
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="senha" placeholder="Senha" />
+    <button onclick="fazerLogin()">Entrar</button>
+  </div>
+</div>
+
+</body>
+</html>

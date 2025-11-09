@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trilhas - Circuito Terê Verde</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <header>
+  <h1>Circuito Terê Verde</h1>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="trilhas.html">Trilhas</a>
+    <a href="biodiversidade.html">Biodiversidade & Eventos</a>
+    <button id="openLogin">Login Admin</button>
+  </nav>
+</header>
+
+  <main>
+    <h2>Trilhas 🥾</h2>
+    <div class="card"><h3>Trilha Cartão Postal</h3><p>Dificuldade: Moderada</p><p>Vista panorâmica dos picos Dedo de Deus e Escalavrado.</p></div>
+    <div class="card"><h3>Trilha da Pedra do Sino</h3><p>Dificuldade: Alta</p><p>A mais famosa de Teresópolis, ideal para montanhistas experientes.</p></div>
+    <div class="card"><h3>Trilha do Vale dos Frades</h3><p>Dificuldade: Leve</p><p>Caminho tranquilo cercado por vegetação exuberante e riachos cristalinos.</p></div>
+  </main>
+  <footer>
+  <p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p>
+</footer>
+<div id="loginModal" class="modal">
+  <div class="modal-content">
+    <span id="closeLogin">&times;</span>
+    <h3>Login Administrativo</h3>
+    <input type="email" id="email" placeholder="Email" />
+    <input type="password" id="senha" placeholder="Senha" />
+    <button onclick="fazerLogin()">Entrar</button>
+  </div>
+</div>
+
+</body>
+</html>
