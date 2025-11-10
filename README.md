@@ -1,74 +1,21 @@
-# 🌿 Circuito Terê Verde
+# Circuito Terê Verde — MVP Front-End
 
-![Capa do Site](./capa-site.png)
+**Integrante:** Leandro Bragança da Silva
 
-**Integrante:** Leandro Bragança da Silva  
+Projeto pronto para ser publicado no GitHub Pages.
 
----
+## Como publicar
 
-## 🏞️ Sobre o Projeto
-O **Circuito Terê Verde** é um projeto de ecoturismo desenvolvido em **HTML, CSS e JavaScript**, com o objetivo de divulgar e valorizar as belezas naturais de **Teresópolis (RJ)**.  
-O site apresenta informações sobre trilhas, parques e biodiversidade da região, incentivando práticas de turismo sustentável e a conscientização ambiental.
+1. Descompacte os arquivos e envie todo o conteúdo para o repositório:
+   - index.html
+   - trilhas.html
+   - biodiversidade.html
+   - admin.html
+   - css/style.css
+   - js/main.js
+2. No GitHub: Settings → Pages → Branch: main, Folder: / (root) → Save
+3. Aguarde ~1 minuto e acesse: https://SEU_USUARIO.github.io/NOME_DO_REPOSITORIO/
 
----
-
-## 💡 Funcionalidades
-- Página inicial com informações gerais sobre o projeto.  
-- Página de **Trilhas** com descrições e níveis de dificuldade.  
-- Página de **Biodiversidade & Eventos** com destaques e atividades locais.  
-- Sistema de **Login Administrativo (demo)** com redirecionamento para o Painel Admin.  
-- Layout **responsivo**, com paleta em verde e azul bebê.  
-
----
-
-## 🗂️ Estrutura do Projeto
-```
-tereverde-online-mvp-frontend/
-├── index.html
-├── trilhas.html
-├── biodiversidade.html
-├── admin.html
-├── css/
-│   └── style.css
-├── js/
-│   └── main.js
-├── capa-site.png
-└── README.md
-```
-
----
-
-## 🚀 Como Executar
-1. Baixe ou clone este repositório:
-   ```bash
-   git clone https://github.com/Leandrosilva20/tereverde-online-mvp-frontend.git
-   ```
-
-2. Abra o arquivo `index.html` em qualquer navegador.  
-
-3. Para testar o **login administrativo**:
-   - **Email:** `admin@tere.com`  
-   - **Senha:** `senha123`  
-
-   > Se o login for correto, aparecerá o alerta “Acesso permitido!” e o usuário será redirecionado para o painel administrativo.
-
----
-
-## 🖼️ Visual
-O site utiliza um design moderno, com:
-- Fundo verde e detalhes em azul bebê;  
-- Layout limpo e minimalista;  
-- Ícones e divisões para facilitar a navegação.  
-
----
-
-## 👨‍💻 Tecnologias Utilizadas
-- **HTML5**  
-- **CSS3** (Flexbox e responsividade)  
-- **JavaScript** (DOM e validação de login)  
-
----
-
-## 📄 Licença
-Projeto acadêmico desenvolvido por **Leandro Bragança da Silva**.  
-Uso livre para fins educacionais.
+## Login (demo)
+- Email: admin@tere.com
+- Senha: senha123
