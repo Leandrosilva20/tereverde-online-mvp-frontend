@@ -1,36 +1,47 @@
 # 🌿 Circuito Terê Verde
 
-**Integrante:** Leandro Bragança da Silva
+**Integrante:** Leandro Bragança da Silva  
 
-## Sobre
-Projeto MVP Front‑End em **HTML/CSS/JS** que centraliza informações sobre os parques de Teresópolis (Parque Nacional da Serra dos Órgãos, Parque Estadual dos Três Picos e Parque Natural Municipal Montanhas de Teresópolis). Projeto com foco em ecoturismo, trilhas e educação ambiental.
+## 🏞️ Sobre o Projeto
+O **Circuito Terê Verde** é um projeto de ecoturismo desenvolvido em **HTML, CSS e JavaScript**, com o objetivo de divulgar e valorizar as belezas naturais de **Teresópolis (RJ)**.  
+O site apresenta informações sobre trilhas, parques e biodiversidade da região, incentivando práticas de turismo sustentável e a conscientização ambiental.
 
-## Estrutura do projeto
-```
-circuito-tere-verde-html/
-├─ index.html
-├─ css/
-│  └─ style.css
-├─ js/
-│  └─ main.js
-└─ README.md
-```
+## 💡 Funcionalidades
+- Página inicial com informações gerais sobre o projeto.  
+- Página de **Trilhas** com descrições e níveis de dificuldade.  
+- Página de **Biodiversidade & Eventos** com destaques e atividades locais.  
+- Sistema de **Login Administrativo (demo)** com redirecionamento para o Painel Admin.  
+- Layout **responsivo**, com paleta em verde e azul bebê.  
 
-## Como usar
-1. Baixe ou clone este repositório.
-2. Abra o arquivo `index.html` no navegador (duplo‑clique).
-3. Para simular login administrativo use:
-   - **Email:** `admin@tere.com`
-   - **Senha:** `senha123`
-   (Autenticação é meramente demo — em produção integrar com back‑end.)
+## 🗂️ Estrutura do Projeto
 
-## Funcionalidades do MVP
-- Página única com seções: Início, Trilhas e Biodiversidade/Eventos.
-- Busca e filtro por dificuldade nas trilhas.
-- Lista de eventos.
-- Modal de login administrativo (demo).
-- Layout responsivo e paleta em verde / baby-blue.
+## 🚀 Como Executar
+1. Baixe ou clone este repositório:
+   ```bash
+   git clone https://github.com/Leandrosilva20/tereverde-online-mvp-frontend.git
+Para testar o login administrativo:
 
----
+Email: admin@tere.com
 
-Feito para entrega acadêmica — pronto para subir ao GitHub. Boa sorte! 🌱
+Senha: senha123🖼️ Visual
+
+O site utiliza um design moderno, com:
+
+Fundo verde e detalhes em azul bebê.
+
+Layout limpo e minimalista.
+
+Ícones e divisões para facilitar a navegação.
+
+👨‍💻 Tecnologias Utilizadas
+
+HTML5
+
+CSS3 (Flexbox e responsividade)
+
+JavaScript (DOM e validação de login)
+
+📄 Licença
+
+Projeto acadêmico desenvolvido por Leandro Bragança da Silva.
+Uso livre para fins educacionais.
