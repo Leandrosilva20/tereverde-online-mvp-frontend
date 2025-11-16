@@ -1,53 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Trilhas - Circuito Terê Verde</title>
-
-  <link rel="stylesheet" href="./css/style.css">
-  <script defer src="./js/main.js"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <script defer src="js/main.js"></script>
 </head>
-
 <body>
-  <header>
-    <h1>Trilhas de Teresópolis</h1>
-    <nav>
-      <a href="./index.html">Início</a>
-      <a href="./trilhas.html">Trilhas</a>
-      <a href="./biodiversidade.html">Biodiversidade & Eventos</a>
-      <button id="openLogin">Login Admin</button>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">TV</div>
+        <div>
+          <h1>Circuito Terê Verde</h1>
+          <p class="subtitle">Teresópolis — Trilhas</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link">Início</a>
+        <a href="trilhas.html" class="nav-link ativo">Trilhas</a>
+        <a href="biodiversidade.html" class="nav-link">Biodiversidade</a>
+        <button id="openLogin" class="btn login-btn">Login Admin</button>
+      </nav>
+    </div>
   </header>
 
   <main class="container">
-    <h2>Lista de Trilhas</h2>
+    <h2>Trilhas Disponíveis</h2>
 
-    <div class="trilha-card">
-      <h3>Trilha dos Pinheiros</h3>
-      <p>Dificuldade: Fácil</p>
-      <p>Distância: 3,2 km</p>
+    <div class="controls">
+      <input id="searchInput" placeholder="Pesquisar trilhas ou parque" />
+      <select id="difficultyFilter">
+        <option value="all">Todas dificuldades</option>
+        <option value="fácil">Fácil</option>
+        <option value="médio">Médio</option>
+        <option value="difícil">Difícil</option>
+      </select>
     </div>
 
-    <div class="trilha-card">
-      <h3>Pico da Tartaruga</h3>
-      <p>Dificuldade: Média</p>
-      <p>Distância: 6,1 km</p>
-    </div>
-
-    <div class="trilha-card">
-      <h3>Pico do Papagaio</h3>
-      <p>Dificuldade: Difícil</p>
-      <p>Distância: 9,7 km</p>
-    </div>
-
+    <div id="trailsList" class="cards"></div>
   </main>
 
-  <footer>
-    <p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p>
+  <footer class="site-footer">
+    <div class="container">
+      <div>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</div>
+    </div>
   </footer>
 
+  <!-- login modal (mesmo markup do index) -->
+  <div id="loginModal" class="modal" aria-hidden="true">
+    <div class="modal-panel">
+      <button id="closeLogin" class="modal-close" aria-label="Fechar">&times;</button>
+      <h3>Acesso Administrativo</h3>
+      <p class="muted">Use: <strong>admin@tere.com</strong> / <strong>senha123</strong></p>
+      <input id="email" type="email" placeholder="Email" />
+      <input id="senha" type="password" placeholder="Senha" />
+      <div class="modal-actions">
+        <button id="loginBtn" class="btn primary">Entrar</button>
+        <button id="cancelLogin" class="btn ghost">Cancelar</button>
+      </div>
+      <p id="loginMsg" class="muted"></p>
+    </div>
+  </div>
 </body>
-
 </html>
