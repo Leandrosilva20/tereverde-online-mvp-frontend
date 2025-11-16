@@ -24,19 +24,13 @@ O site apresenta informações sobre trilhas, parques e biodiversidade da regiã
 ## 🗂️ Estrutura do Projeto
 ```
 tereverde-online-mvp-frontend/
-├── index.html
-├── trilhas.html
-├── biodiversidade.html
-├── admin.html
-├── css/
-│   └── style.css
-├── js/
-│   └── main.js
-├── capa-site.png
-└── README.md
+/index.html
+/trilhas.html
+/biodiversidade.html
+/css/style.css
+/js/main.js
+/images/... (se houver)
 ```
-
----
 
 ## 🚀 Como Executar
 1. Baixe ou clone este repositório:
