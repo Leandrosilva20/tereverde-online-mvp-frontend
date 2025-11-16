@@ -3,10 +3,3 @@
   <ellipse cx="400" cy="220" rx="360" ry="120" fill="#dff6ff"/>
   <rect x="40" y="60" width="320" height="160" rx="12" fill="#c8f7c5"/>
 </svg>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600">
-  <rect width="1200" height="600" fill="#b8f2e6"/>
-  <g transform="translate(0,120)">
-    <path d="M0 400 C150 200 300 200 450 400 C600 600 750 300 900 400 C1050 500 1200 300 1200 300 L1200 600 L0 600 Z" fill="#a8e6c4"/>
-    <circle cx="1000" cy="120" r="40" fill="#fff2a8"/>
-  </g>
-</svg>
