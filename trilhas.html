@@ -1,29 +1,53 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trilhas - Circuito Terê Verde</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script defer src="js/main.js"></script>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/main.js"></script>
 </head>
+
 <body>
   <header>
-    <h1>Trilhas em Teresópolis</h1>
+    <h1>Trilhas de Teresópolis</h1>
     <nav>
-      <a href="index.html">Início</a>
-      <a href="trilhas.html" class="active">Trilhas</a>
-      <a href="biodiversidade.html">Biodiversidade & Eventos</a>
+      <a href="./index.html">Início</a>
+      <a href="./trilhas.html">Trilhas</a>
+      <a href="./biodiversidade.html">Biodiversidade & Eventos</a>
+      <button id="openLogin">Login Admin</button>
     </nav>
   </header>
-  <main>
-    <h2>Principais Trilhas</h2>
-    <ul class="trilha-lista">
-      <li><strong>Trilha da Pedra do Sino</strong> — Nível: Difícil</li>
-      <li><strong>Trilha Cartão Postal</strong> — Nível: Moderado</li>
-      <li><strong>Trilha dos Frades</strong> — Nível: Leve</li>
-    </ul>
+
+  <main class="container">
+    <h2>Lista de Trilhas</h2>
+
+    <div class="trilha-card">
+      <h3>Trilha dos Pinheiros</h3>
+      <p>Dificuldade: Fácil</p>
+      <p>Distância: 3,2 km</p>
+    </div>
+
+    <div class="trilha-card">
+      <h3>Pico da Tartaruga</h3>
+      <p>Dificuldade: Média</p>
+      <p>Distância: 6,1 km</p>
+    </div>
+
+    <div class="trilha-card">
+      <h3>Pico do Papagaio</h3>
+      <p>Dificuldade: Difícil</p>
+      <p>Distância: 9,7 km</p>
+    </div>
+
   </main>
-  <footer><p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p></footer>
+
+  <footer>
+    <p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p>
+  </footer>
+
 </body>
+
 </html>
