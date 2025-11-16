@@ -1,65 +1,51 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Painel Admin - Circuito Terê Verde</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Início - Circuito Terê Verde</title>
+
   <link rel="stylesheet" href="./css/style.css" />
   <script defer src="./js/main.js"></script>
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <div class="brand">
-        <div class="logo">TV</div>
-        <div>
-          <h1>Painel Administrativo</h1>
-          <p class="subtitle">Área administrativa (demo)</p>
-        </div>
-      </div>
-      <nav class="nav">
-        <a href="./index.html" class="nav-link">Sair</a>
-      </nav>
-    </div>
+  <header>
+    <h1>Circuito Terê Verde 🌿</h1>
+    <nav>
+      <a href="./index.html">Início</a>
+      <a href="./trilhas.html">Trilhas</a>
+      <a href="./biodiversidade.html">Biodiversidade & Eventos</a>
+      <button id="openLogin">Login Admin</button>
+    </nav>
   </header>
 
-  <main class="container">
-    <h2>Trilhas cadastradas</h2>
-    <table id="trilhasTable" class="admin-table">
-      <thead><tr><th>Nome</th><th>Dificuldade</th><th>Distância (km)</th><th>Ações</th></tr></thead>
-      <tbody></tbody>
-    </table>
-
-    <h2 style="margin-top:24px">Eventos cadastrados</h2>
-    <table id="eventsTable" class="admin-table">
-      <thead><tr><th>Título</th><th>Data</th><th>Local</th><th>Ações</th></tr></thead>
-      <tbody></tbody>
-    </table>
-
-    <div class="admin-actions">
-      <button id="addTrailBtn" class="btn primary">Adicionar Trilha</button>
-      <button id="addEventBtn" class="btn primary">Adicionar Evento</button>
-    </div>
+  <main>
+    <section class="hero">
+      <h2>Bem-vindo ao Circuito Terê Verde</h2>
+      <p>Descubra trilhas, parques e cachoeiras em meio à natureza de Teresópolis.</p>
+      <img src="./images/hero.svg" alt="Natureza Teresópolis">
+    </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</div>
-    </div>
+  <footer>
+    <p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p>
   </footer>
 
-  <!-- simple modals for add/edit -->
-  <div id="editorModal" class="modal" aria-hidden="true">
-    <div class="modal-panel">
-      <button id="closeEditor" class="modal-close">&times;</button>
-      <h3 id="editorTitle">Editar</h3>
-      <div id="editorBody"></div>
-      <div class="modal-actions">
-        <button id="saveEditor" class="btn primary">Salvar</button>
-        <button id="cancelEditor" class="btn ghost">Cancelar</button>
-      </div>
+  <!-- Modal Login -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span id="closeLogin">&times;</span>
+      <h3>Login Administrativo</h3>
+
+      <input type="email" id="email" placeholder="Email">
+      <input type="password" id="senha" placeholder="Senha">
+
+      <button onclick="fazerLogin()">Entrar</button>
     </div>
   </div>
 
 </body>
+
 </html>
