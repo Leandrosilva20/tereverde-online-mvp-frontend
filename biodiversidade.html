@@ -1,36 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Biodiversidade & Eventos - Circuito Terê Verde</title>
-  <link rel="stylesheet" href="css/style.css" />
-  <script defer src="js/main.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Biodiversidade - Circuito Terê Verde</title>
+
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/main.js"></script>
 </head>
+
 <body>
   <header>
     <h1>Biodiversidade & Eventos</h1>
     <nav>
-      <a href="index.html">Início</a>
-      <a href="trilhas.html">Trilhas</a>
-      <a href="biodiversidade.html" class="active">Biodiversidade & Eventos</a>
+      <a href="./index.html">Início</a>
+      <a href="./trilhas.html">Trilhas</a>
+      <a href="./biodiversidade.html">Biodiversidade & Eventos</a>
+      <button id="openLogin">Login Admin</button>
     </nav>
   </header>
-  <main>
-    <section>
-      <h2>Riqueza Natural</h2>
-      <p>A fauna e a flora dos parques de Teresópolis são um espetáculo à parte, com espécies raras e ecossistemas preservados.</p>
-      <img src="images/floresta.svg" alt="Floresta" />
-    </section>
-    <section>
-      <h2>Próximos Eventos</h2>
-      <ul>
-        <li>🌱 Caminhada Ecológica — 15/11</li>
-        <li>🐦 Observação de Aves — 22/11</li>
-        <li>🌳 Mutirão Ambiental — 30/11</li>
-      </ul>
-    </section>
+
+  <main class="container">
+    <h2>Fauna & Flora</h2>
+
+    <div class="bio-card">
+      <h3>Orquídeas da Serra</h3>
+      <p>Espécies únicas encontradas nos parques.</p>
+      <img src="./images/orquidea.jpg" class="bio-img">
+    </div>
+
+    <div class="bio-card">
+      <h3>Macaco-Sauá</h3>
+      <p>Espécie nativa presente nas trilhas.</p>
+      <img src="./images/macaco.jpg" class="bio-img">
+    </div>
+
+    <h2>Eventos</h2>
+
+    <div class="evento-card">
+      <h3>Trilha Noturna</h3>
+      <p>Data: 22/11/2025</p>
+      <p>Local: PN Serra dos Órgãos</p>
+    </div>
+
+    <div class="evento-card">
+      <h3>Mutirão Ambiental</h3>
+      <p>Data: 29/11/2025</p>
+      <p>Local: Parque Municipal</p>
+    </div>
   </main>
-  <footer><p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p></footer>
+
+  <footer>
+    <p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p>
+  </footer>
+
 </body>
+
 </html>
