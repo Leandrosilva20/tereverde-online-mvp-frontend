@@ -8,30 +8,78 @@
   <script defer src="js/main.js"></script>
 </head>
 <body>
-  <header>
-    <h1>Circuito Terê Verde 🌿</h1>
-    <nav>
-      <a href="index.html">Início</a>
-      <a href="trilhas.html">Trilhas</a>
-      <a href="biodiversidade.html">Biodiversidade & Eventos</a>
-      <button id="openLogin">Login Admin</button>
-    </nav>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo">TV</div>
+        <div>
+          <h1>Circuito Terê Verde</h1>
+          <p class="subtitle">Teresópolis — Ecoturismo & Biodiversidade</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="index.html" class="nav-link ativo">Início</a>
+        <a href="trilhas.html" class="nav-link">Trilhas</a>
+        <a href="biodiversidade.html" class="nav-link">Biodiversidade</a>
+        <button id="openLogin" class="btn login-btn">Login Admin</button>
+      </nav>
+    </div>
   </header>
-  <main>
+
+  <main class="container">
     <section class="hero">
-      <h2>Bem-vindo ao Circuito Terê Verde</h2>
-      <p>Descubra trilhas, parques e cachoeiras em meio à natureza de Teresópolis.</p>
-      <img src="images/hero.svg" alt="Natureza Teresópolis" />
+      <div class="hero-left">
+        <h2>Explore as montanhas de Teresópolis</h2>
+        <p>Trilhas, cachoeiras e educação ambiental. Planeje sua visita com informações atualizadas sobre disponibilidade e eventos.</p>
+        <div class="actions">
+          <a href="trilhas.html" class="btn primary">Ver Trilhas</a>
+          <a href="biodiversidade.html" class="btn ghost">Eventos & Biodiversidade</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero.svg" alt="Montanhas de Teresópolis" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Parques em destaque</h3>
+      <div class="cards">
+        <article class="card">
+          <h4>Parque Nacional da Serra dos Órgãos</h4>
+          <p>Montanhas, cânions e trilhas clássicas.</p>
+        </article>
+        <article class="card">
+          <h4>Parque Estadual dos Três Picos</h4>
+          <p>Picos íngremes e biodiversidade rica.</p>
+        </article>
+        <article class="card">
+          <h4>Parque Natural Municipal Montanhas de Teresópolis</h4>
+          <p>Trilhas curtas, mirantes locais e educação ambiental.</p>
+        </article>
+      </div>
     </section>
   </main>
-  <footer><p>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</p></footer>
-  <div id="loginModal" class="modal">
-    <div class="modal-content">
-      <span id="closeLogin">&times;</span>
-      <h3>Login Administrativo</h3>
-      <input type="email" id="email" placeholder="Email" />
-      <input type="password" id="senha" placeholder="Senha" />
-      <button onclick="fazerLogin()">Entrar</button>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© 2025 Circuito Terê Verde — Leandro Bragança da Silva</div>
+      <div>Contato: prefeitura@teresopolis.rj.br</div>
+    </div>
+  </footer>
+
+  <!-- Modal login (reutilizado pelas páginas) -->
+  <div id="loginModal" class="modal" aria-hidden="true">
+    <div class="modal-panel">
+      <button id="closeLogin" class="modal-close" aria-label="Fechar">&times;</button>
+      <h3>Acesso Administrativo</h3>
+      <p class="muted">Use: <strong>admin@tere.com</strong> / <strong>senha123</strong></p>
+      <input id="email" type="email" placeholder="Email" />
+      <input id="senha" type="password" placeholder="Senha" />
+      <div class="modal-actions">
+        <button id="loginBtn" class="btn primary">Entrar</button>
+        <button id="cancelLogin" class="btn ghost">Cancelar</button>
+      </div>
+      <p id="loginMsg" class="muted"></p>
     </div>
   </div>
 </body>
