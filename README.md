@@ -19,16 +19,16 @@ O site apresenta informações sobre trilhas, parques e biodiversidade da regiã
 - Sistema de **Login Administrativo (demo)** com redirecionamento para o Painel Admin.  
 - Layout **responsivo**, com paleta em verde e azul bebê.
 
- ## 📐 Prototipação
+## 📐 Prototipação
 
 ### Tela Inicial
-![Tela Inicial](./inicio.png)
+![Tela Inicial](./images/inicio.PNG)
 
 ### Tela Trilhas
-![Tela Trilhas](./trilha.png)
+![Tela Trilhas](./images/trilha.PNG)
 
 ### Tela Biodiversidade & Eventos
-![Tela Biodiversidade](./biodversidade.png)
+![Tela Biodiversidade](./images/biodversidade.PNG)
 
 ## 🗂️ Estrutura do Projeto
 ```
