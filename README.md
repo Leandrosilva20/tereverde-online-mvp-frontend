@@ -19,7 +19,48 @@ O site apresenta informações sobre trilhas, parques e biodiversidade da regiã
 - Sistema de **Login Administrativo (demo)** com redirecionamento para o Painel Admin.  
 - Layout **responsivo**, com paleta em verde e azul bebê.  
 
----
+Tela Inicial 
+-------------------------------------------------
+| LOGO | Início | Trilhas | Biodiversidade | Login|
+-------------------------------------------------
+|          [Imagem/banner de capa]              |
+| "Explore as belezas naturais de Teresópolis" |
+-------------------------------------------------
+| Sobre o Projeto: texto curto + ícone 🌱       |
+-------------------------------------------------
+| Rodapé: contatos, créditos, links sociais     |
+-------------------------------------------------
+
+Tela Trilhas
+-------------------------------------------------
+| LOGO | Início | Trilhas | Biodiversidade | Login|
+-------------------------------------------------
+| Título: Trilhas Disponíveis 🏞️                |
+-------------------------------------------------
+| [Card 1] Nome da trilha - dificuldade fácil   |
+| [Imagem ilustrativa + botão "Ver mais"]       |
+-------------------------------------------------
+| [Card 2] Nome da trilha - dificuldade média   |
+| [Imagem ilustrativa + botão "Ver mais"]       |
+-------------------------------------------------
+| [Card 3] Nome da trilha - dificuldade difícil |
+| [Imagem ilustrativa + botão "Ver mais"]       |
+-------------------------------------------------
+
+Tela Biodiversidade e Eventos
+-------------------------------------------------
+| LOGO | Início | Trilhas | Biodiversidade | Login|
+-------------------------------------------------
+| Título: Biodiversidade & Eventos 🌿🐦🌸         |
+-------------------------------------------------
+| Seção Biodiversidade: ícones de fauna/flora   |
+| - Ex: bromélias, aves, mamíferos locais       |
+-------------------------------------------------
+| Seção Eventos: lista com datas + descrição    |
+| - Ex: Caminhada ecológica, palestra ambiental |
+-------------------------------------------------
+| Rodapé: informações institucionais            |
+-------------------------------------------------
 
 ## 🗂️ Estrutura do Projeto
 ```
