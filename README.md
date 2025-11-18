@@ -33,20 +33,20 @@ O site apresenta informações sobre trilhas, parques e biodiversidade da regiã
 ## Prototipação (3 telas)
 
 As telas do protótipo do MVP foram **criadas no Canva**
-
-Funcionais e Não Funcionais	Tipo de Requisitos	Requisitos 
-Funcionais	Página Inicial	O sistema deve apresentar uma página inicial com informações sobre a marca e sustentabilidade.
-Funcionais	Exibição de Produtos Sustentáveis	O sistema deve apresentar uma lista de produtos disponíveis.
-Funcionais	Visualização de Detalhes do Produto	O usuário deve conseguir acessar uma página com detalhes do produto selecionado.
-Funcionais	Sistema de Busca	O usuário deve buscar produtos por nome.
-Funcionais	Menu de Navegação	O sistema deve permitir navegação intuitiva entre as telas.
-Funcionais	Responsividade	As telas devem se adaptar a celulares, tablets e desktops.
-Não Funcionais	Usabilidade	A interface deve ser simples, clara, acessível e fácil de navegar.
-Não Funcionais	Desempenho	As páginas devem carregar em até 3 segundos em conexão comum.
-Não Funcionais	Compatibilidade entre Navegadores	O sistema deve funcionar corretamente no Google Chrome, Edge e Firefox
-Não Funcionais	Organização do Código	O código deve ser limpo, organizado, comentado quando necessário e seguir boas práticas.
-Não Funcionais	Padrão Visual	A interface deve adotar estilo minimalista e cores suaves alinhadas à identidade da Terê Verde.
-Não Funcionais	Versionamento	Todo desenvolvimento deve ser armazenado e atualizado via GitHub com commits claros.
+| Funcionais e Não Funcionais | Tipo de Requisitos                | Requisitos                                                                                     |
+|-----------------------------|------------------------------------|-------------------------------------------------------------------------------------------------|
+| Funcionais                  | Página Inicial                     | O sistema deve apresentar uma página inicial com informações sobre a marca e sustentabilidade.  |
+| Funcionais                  | Exibição de Produtos Sustentáveis  | O sistema deve apresentar uma lista de produtos disponíveis.                                   |
+| Funcionais                  | Visualização de Detalhes do Produto| O usuário deve conseguir acessar uma página com detalhes do produto selecionado.               |
+| Funcionais                  | Sistema de Busca                   | O usuário deve buscar produtos por nome.                                                       |
+| Funcionais                  | Menu de Navegação                  | O sistema deve permitir navegação intuitiva entre as telas.                                    |
+| Funcionais                  | Responsividade                     | As telas devem se adaptar a celulares, tablets e desktops.                                     |
+| Não Funcionais              | Usabilidade                        | A interface deve ser simples, clara, acessível e fácil de navegar.                             |
+| Não Funcionais              | Desempenho                         | As páginas devem carregar em até 3 segundos em conexão comum.                                  |
+| Não Funcionais              | Compatibilidade entre Navegadores  | O sistema deve funcionar corretamente no Google Chrome, Edge e Firefox.                        |
+| Não Funcionais              | Organização do Código              | O código deve ser limpo, organizado, comentado quando necessário e seguir boas práticas.       |
+| Não Funcionais              | Padrão Visual                      | A interface deve adotar estilo minimalista e cores suaves alinhadas à identidade da Terê Verde.|
+| Não Funcionais              | Versionamento                      | Todo desenvolvimento deve ser armazenado e atualizado via GitHub com commits claros.           |
 
 <img width="1121" height="261" alt="image" src="https://github.com/user-attachments/assets/7bfdb93d-c82e-4552-b403-87f9e3e59faf" />
 
