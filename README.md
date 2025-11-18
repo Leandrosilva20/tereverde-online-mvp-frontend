@@ -30,6 +30,11 @@ O site apresenta informações sobre trilhas, parques e biodiversidade da regiã
 ### Tela Biodiversidade & Eventos
 ![Tela Biodiversidade](./images/biodversidade.PNG)
 
+## Prototipação (3 telas)
+
+As telas do protótipo do MVP foram **criadas no Canva**, seguindo o limite de até 3 telas solicitado pelo professor.
+
+
 ## 🗂️ Estrutura do Projeto
 ```
 tereverde-online-mvp-frontend/
