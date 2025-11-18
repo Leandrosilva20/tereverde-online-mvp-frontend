@@ -32,8 +32,8 @@ O site apresenta informações sobre trilhas, parques e biodiversidade da regiã
 
 ## Prototipação (3 telas)
 
-As telas do protótipo do MVP foram **criadas no Canva**                                                                                   |
-|-----------------------------|------------------------------------|-------------------------------------------------------------------------------------------------|
+As telas do protótipo do MVP foram **criadas no Canva**                                                                                 
+
 | Funcionais                  | Página Inicial                     | O sistema deve apresentar uma página inicial com informações sobre a marca e sustentabilidade.  |
 | Funcionais                  | Exibição de Produtos Sustentáveis  | O sistema deve apresentar uma lista de produtos disponíveis.                                   |
 | Funcionais                  | Visualização de Detalhes do Produto| O usuário deve conseguir acessar uma página com detalhes do produto selecionado.               |
