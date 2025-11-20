@@ -78,7 +78,6 @@ O site utiliza um design moderno, com:
 
 [---](https://leandrosilva20.github.io/tereverde-online-mvp-frontend/)
 
-
 ## 📄 Licença
 Projeto acadêmico desenvolvido por **Leandro Bragança da Silva**.  
 Uso livre para fins educacionais.
